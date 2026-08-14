@@ -1,7 +1,6 @@
-[target.md](https://github.com/user-attachments/files/31086816/target.md)
 un script en bash para modificar el contenido la la casilla "target" de los entornos con bspwn como al lanzarlo no pide la Ip, host + el clear.
 
-target/target/Screenshot 2026-08-14-162641.jpg
+[target/1.jpg](https://github.com/ajente007/target/blob/1af693ed023259019fa4d1e3e53fc61d190b50c6/target/1.jpg)
 
 
 

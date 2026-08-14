@@ -9,7 +9,6 @@
      case "$1" in
        clear|cls)
          : > "$F"
-         echo "\nlimpio"
          ;;
        add)
          [ $# -ge 3 ] || { echo "Uso: target add <IP> <HOST>"; exit 1; }
@@ -22,6 +21,5 @@
          [ $# -ge 2 ] || { echo "Uso: target <IP> <HOST>"; exit 1; }
          h=$(echo "$2" | tr '[:upper:]' '[:lower:]')
          printf '%s %s\n' "$1" "$h" > "$F"
-         echo "Target: $1 $h"
          ;;
      esac
